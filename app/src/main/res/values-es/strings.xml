@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DADM</string>
+    <string name="about">Sobre Nosotros</string>
+    <string name="about_content">Quotation Shake por Luis Serrano Hernández luiserh1@inf.upv.es  2020</string>
+    <string name="fav_quotation">Citas favoritas</string>
+    <string name="fav_quotation_button">Sobre el autor</string>
+    <string name="get_quotation">Conseguir cita</string>
+    <string name="get_quotation_author">Este es un autor de muestra</string>
+    <string name="get_quotation_info">\"¡Hola %1s! Pulsa Refrescar para obtener tu primera cita\"</string>
+    <string name="get_quotation_sample_quotation">\"Esta es una cita de prueba\"</string>
+    <string name="settings">Configuración</string>
+    <string name="settings_language_info">Las citas pueden ser recibidas en múltiples idiomas</string>
+    <string name="settings_name_info">Nombre por el que se identifica al usuario</string>
+    <string name="settings_name_info_content">Introduce tu nombre</string>
+    <string name="settings_request_protocol">Las peticiones Web se llevarán a cabo mediante el método HTTP escogido</string>
+</resources>
