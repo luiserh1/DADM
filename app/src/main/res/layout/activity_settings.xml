@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView style="@style/SettingsTheme"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,11 +9,11 @@
     android:fillViewport="true"
     tools:context=".SettingsActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/SettingsTheme"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <TextView
+        <TextView style="@style/SettingsTheme"
             android:id="@+id/tvNameInfo"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -24,7 +25,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <EditText
+        <EditText style="@style/SettingsTheme"
             android:hint="@string/settings_name_info_content"
             android:id="@+id/etName"
             android:layout_width="0dp"
@@ -39,7 +40,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvNameInfo" />
 
-        <TextView
+        <TextView style="@style/SettingsTheme"
             android:id="@+id/tvLanguageInfo"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -52,19 +53,20 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/etName" />
 
-        <Spinner
+        <Spinner style="@style/SettingsTheme"
             android:id="@+id/spinner3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
+            android:entries="@array/spinner_content"
             app:layout_constraintEnd_toEndOf="@+id/tvLanguageInfo"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/tvLanguageInfo"
             app:layout_constraintTop_toBottomOf="@+id/tvLanguageInfo" />
 
-        <TextView
+        <TextView style="@style/SettingsTheme"
             android:id="@+id/tvProtocolInfo"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -77,7 +79,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/spinner3" />
 
-        <RadioGroup
+        <RadioGroup style="@style/SettingsTheme"
             android:id="@+id/rgProtocol"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -89,7 +91,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvProtocolInfo">
 
-            <RadioButton
+            <RadioButton style="@style/SettingsTheme"
                 android:id="@+id/rbProtocolGet"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -102,7 +104,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/rgProtocol" />
 
-            <RadioButton
+            <RadioButton style="@style/SettingsTheme"
                 android:id="@+id/rbProtocolPost"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

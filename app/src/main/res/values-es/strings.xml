@@ -14,4 +14,17 @@
     <string name="settings_name_info">Nombre por el que se identifica al usuario</string>
     <string name="settings_name_info_content">Introduce tu nombre</string>
     <string name="settings_request_protocol">Las peticiones Web se llevarán a cabo mediante el método HTTP escogido</string>
+    <string name="eng">Inglés</string>
+    <string name="rus">Ruso</string>
+    <string name="deletion_dialog_message">¿Está seguro de querer borrar esta cita?</string>
+    <string name="deletion_dialog_title">Borrar Cita</string>
+    <string name="deletion_dialog_yes">La cita ha sido borrada</string>
+    <string name="deletion_dialog_no">La cita será conservada</string>
+    <string name="menu_quotation_add_title">Añadir</string>
+    <string name="menu_quotation_refresh_title">Refrescar</string>
+    <string name="menu_favourite_delete_all">Borrar Todas</string>
+    <string name="clear_all_dialog_message">¿Estás seguro de querer borrar TODAS tus citas favoritas?</string>
+    <string name="clear_all_dialog_no">Se conservarán todas las citas</string>
+    <string name="clear_all_dialog_yes">Todas las citas han sido borradas</string>
+    <string name="clear_all_dialog_title">Borrar Todas</string>
 </resources>

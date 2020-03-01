@@ -7,6 +7,8 @@
     tools:context=".DashboardActivity">
 
     <Button
+        android:background="@drawable/buttons"
+        android:textColor="@color/button_texts"
         android:id="@+id/butSettings"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -22,6 +24,8 @@
         app:layout_constraintTop_toBottomOf="@+id/butFavQuotations" />
 
     <Button
+        android:background="@drawable/buttons"
+        android:textColor="@color/button_texts"
         android:id="@+id/butFavQuotations"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -37,6 +41,8 @@
         app:layout_constraintTop_toBottomOf="@+id/butGetQuotation" />
 
     <Button
+        android:background="@drawable/buttons"
+        android:textColor="@color/button_texts"
         android:id="@+id/butGetQuotation"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -53,6 +59,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
+        android:background="@drawable/buttons"
+        android:textColor="@color/button_texts"
         android:id="@+id/butAbout"
         android:layout_width="0dp"
         android:layout_height="0dp"

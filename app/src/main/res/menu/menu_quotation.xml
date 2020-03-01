@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_to_favourite"
+        android:title="@string/menu_quotation_add_title"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always"
+        android:visible="false">
+    </item>
+    <item
+        android:id="@+id/get_another_quotation"
+        android:title="@string/menu_quotation_refresh_title"
+        android:icon="@android:drawable/ic_menu_rotate"
+        app:showAsAction="always"
+        android:visible="true">
+    </item>
+</menu>

@@ -20,4 +20,17 @@
     <string name="get_quotation_info">\"Hello %1s! Press Refresh to get a new quotation\"</string>
     <string name="get_quotation_sample_quotation">\"This is a sample quotation\"</string>
     <string name="get_quotation_author">This is a sample author</string>
+    <string name="eng">English</string>
+    <string name="rus">Russian</string>
+    <string name="deletion_dialog_message">Are you sure you want to delete this quotation?</string>
+    <string name="deletion_dialog_title">Delete Quotation</string>
+    <string name="deletion_dialog_yes">The quotation has benn removed</string>
+    <string name="deletion_dialog_no">The quotation will be kept</string>
+    <string name="menu_quotation_add_title">Add</string>
+    <string name="menu_quotation_refresh_title">Refresh</string>
+    <string name="menu_favourite_delete_all">Clear All</string>
+    <string name="clear_all_dialog_message">Are you sure that you want to delete ALL your favourite quotations?</string>
+    <string name="clear_all_dialog_no">All quotations will be kept</string>
+    <string name="clear_all_dialog_yes">All the quotations have been removed</string>
+    <string name="clear_all_dialog_title">Clear All</string>
 </resources>
