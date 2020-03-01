@@ -4,12 +4,15 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -21,7 +24,10 @@ public class QuootationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quootation);
         TextView infoText = findViewById(R.id.tvQuoteFavQuotation);
-        infoText.setText(getString(R.string.get_quotation_info, "Nameless One"));
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        String userName = prefs.getString("username", "Nameless One");
+        if (userName.length() < 1) userName = "Nameless One";
+        infoText.setText(getString(R.string.get_quotation_info, userName));
     }
 
     @Override
