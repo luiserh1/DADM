@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:title="@string/settings_name_title"
+        android:summary="@string/settings_name_info"
+        android:hint="@string/settings_name_info_content"
+        android:key="username" />
+    <PreferenceCategory android:title="@string/settings_category_webservice">
+        <ListPreference
+            android:title="@string/settings_language_title"
+            android:summary="@string/settings_language_info"
+            android:entries="@array/language_list_titles"
+            android:entryValues="@array/language_list_values"
+            android:key="language">
+        </ListPreference>
+        <ListPreference
+            android:title="@string/settings_request_protocol_title"
+            android:summary="@string/settings_request_protocol_info"
+            android:entries="@array/request_protocol_list_titles"
+            android:entryValues="@array/request_protocol_list_values"
+            android:key="http_protocol">
+        </ListPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

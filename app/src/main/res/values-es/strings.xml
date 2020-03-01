@@ -10,10 +10,10 @@
     <string name="get_quotation_info">\"¡Hola %1s! Pulsa Refrescar para obtener tu primera cita\"</string>
     <string name="get_quotation_sample_quotation">\"Esta es una cita de prueba\"</string>
     <string name="settings">Configuración</string>
-    <string name="settings_language_info">Las citas pueden ser recibidas en múltiples idiomas</string>
+    <string name="settings_language_info">Las citas serán recibidas en el idioma seleccionado</string>
     <string name="settings_name_info">Nombre por el que se identifica al usuario</string>
     <string name="settings_name_info_content">Introduce tu nombre</string>
-    <string name="settings_request_protocol">Las peticiones Web se llevarán a cabo mediante el método HTTP escogido</string>
+    <string name="settings_request_protocol_info">Las peticiones Web se llevarán a cabo mediante el método HTTP escogido</string>
     <string name="eng">Inglés</string>
     <string name="rus">Ruso</string>
     <string name="deletion_dialog_message">¿Está seguro de querer borrar esta cita?</string>
@@ -27,4 +27,10 @@
     <string name="clear_all_dialog_no">Se conservarán todas las citas</string>
     <string name="clear_all_dialog_yes">Todas las citas han sido borradas</string>
     <string name="clear_all_dialog_title">Borrar Todas</string>
+    <string name="settings_language_title">Idioma de las citas</string>
+    <string name="settings_name_title">Nombre de Usuario</string>
+    <string name="settings_request_protocol_title">Método de petición HTTP</string>
+    <string name="settings_database_info">Los accesos a base de datos se realizarán por medio del étodo seleccionado</string>
+    <string name="settings_database_title">Método de acceso a la base de datos</string>
+    <string name="settings_category_webservice">Servicio Web</string>
 </resources>

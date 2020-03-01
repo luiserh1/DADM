@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="spinner_content">
-        <item name="english" type="string">@string/eng</item>
-        <item name="russian" type="string">@string/rus</item>
+    <array name="language_list_titles">
+        <item name="english_title" type="string">@string/eng</item>
+        <item name="russian_title" type="string">@string/rus</item>
+    </array>
+    <array name="request_protocol_list_titles">
+        <item name="get_title" type="string">@string/settings_request_protocol_get</item>
+        <item name="post_title" type="string">@string/settings_request_protocol_post</item>
+    </array>
+    <array name="language_list_values">
+        <item name="english_value" type="string">0</item>
+        <item name="russian_value" type="string">1</item>
+    </array>
+    <array name="request_protocol_list_values">
+        <item name="get_value" type="string">0</item>
+        <item name="post_value" type="string">1</item>
     </array>
 </resources>

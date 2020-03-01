@@ -11,7 +11,7 @@
     <string name="settings_name_info">Name that identifies the user</string>
     <string name="settings_name_info_content">Insert your name</string>
     <string name="settings_language_info">Quotations will be received in the selected language</string>
-    <string name="settings_request_protocol">Web requests will be performed using the selected HTTP method</string>
+    <string name="settings_request_protocol_info">Web requests will be performed using the selected HTTP method</string>
     <string name="settings_request_protocol_get" translatable="false">GET</string>
     <string name="settings_request_protocol_post" translatable="false">POST</string>
 
@@ -33,4 +33,10 @@
     <string name="clear_all_dialog_no">All quotations will be kept</string>
     <string name="clear_all_dialog_yes">All the quotations have been removed</string>
     <string name="clear_all_dialog_title">Clear All</string>
+    <string name="settings_name_title">User Name</string>
+    <string name="settings_request_protocol_title">HTTP request method</string>
+    <string name="settings_language_title">Quotation Language</string>
+    <string name="settings_database_title">Database access method</string>
+    <string name="settings_database_info">Database will be accessed following the selected method</string>
+    <string name="settings_category_webservice">Web Service</string>
 </resources>
